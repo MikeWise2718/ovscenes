@@ -3,7 +3,7 @@
 ## Jetson
 - A demo scene to demonstrate rosbridge on Windows11/WSL
 
-On Wsl side:
+### On WSL side:
 - Install ROS 2 Humble
     - https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html#set-locale
     - Test that it works with talker/listener
@@ -14,7 +14,7 @@ On Wsl side:
 - Start ROS 2 Bridge
     - `ros2 launch rosbridge_server rosbridge_websocket_launch.xml`
     
- On Windows 11
+ ### On Windows 11
     - Install Isaac Sim (tested with 4.1.0 and 4.2.0)
     - Start Isaaac Sim with following settings
         - When the Isaa Sim App Selector comes up:
@@ -33,7 +33,7 @@ On Wsl side:
      - The jetson should fall to the floor.
      
      
- Back to WSL
+ ### Back to WSL
      - Run `ros2 topic pub /jetbot_cmd_vel geometry_msgs/Twist '{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.3}}'`
                
            
