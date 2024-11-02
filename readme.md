@@ -37,5 +37,5 @@
 - Run `ros2 topic pub /jetbot_cmd_vel geometry_msgs/Twist '{linear: {x: 0.2, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.3}}'`
                
            
-# Rollaball.usd Scene
+# rollaball.usd Scene
 - Work on `https://www.youtube.com/watch?v=nTrnCZuG8bU`
