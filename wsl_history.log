@@ -1,0 +1,198 @@
+    1  ros2 list topics
+    2  cd ~
+    3  history
+    4  cd bin
+    5  mkdir bin
+    6  cd bin
+    7  dir
+    8  source /opt/ros/humble/setup.bash
+    9  vi humble
+   10  ls
+   11  chmod +x humble
+   12  cd ..
+   13  bin/humble
+   14  ros2
+   15  ros2 topic list
+   16  ros2 run demo_nodes_cpp listener
+   17  ls -ali
+   18  history
+   19  ls
+   20  locale  # check for UTF-8
+   21  sudo apt update && sudo apt install locales
+   22  sudo locale-gen en_US en_US.UTF-8
+   23  sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+   24  export LANG=en_US.UTF-8
+   25  locale  # verify settings
+   26  locale  # check for UTF-8
+   27  sudo apt update && sudo apt install locales
+   28  sudo locale-gen en_US en_US.UTF-8
+   29  sudo update-locale LC_ALL=en_US.UTF-8 LANG=en_US.UTF-8
+   30  export LANG=en_US.UTF-8
+   31  locale  # verify settings
+   32  sudo apt install software-properties-common
+   33  sudo add-apt-repository universe
+   34  sudo apt update && sudo apt install curl -y
+   35  sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
+   36  echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
+   37  sudo apt update
+   38  sudo apt upgrade
+   39  sudo apt install ros-humble-desktop
+   40  sudo apt install ros-dev-tools
+   41  sudo apt install ros-humble-ros-base
+   42  source /opt/ros/humble/setup.bash
+   43  ros2 run demo_nodes_cpp talker
+   44  ls
+   45  ls -ali
+   46  uname -a
+   47  ros2 run demo_nodes_cpp talker
+   48  ros2 run demo_nodes_cpp takjer
+   49  ros2 run demo_nodes_cpp talker
+   50  ros2 run demo_nodes_cpp listener
+   51  ros2 run demo_nodes_cpp talker
+   52  ls
+   53  cd ~
+   54  ls
+   55  source /opt/ros/humble/setup.bash
+   56  ros2 run demo_nodes_py listener
+   57  sudo apt install ros-humble-rosbridge-server
+   58  ros2 launch rosbridge_server rosbridge_websocket_launch.xml
+   59  ros2 list topics
+   60  ros2 topic list
+   61  qft
+   62  fqt
+   63  rqt_graph
+   64  qft
+   65  ros2 topic list
+   66  rqt
+   67  ros2 topic list
+   68  exit
+   69  cd
+   70  jpwd
+   71  pwd
+   72  more .bashrc
+   73  vi .bashrc
+   74  exit
+   75  ls
+   76  ls source
+   77  ls
+   78  bin/humble 
+   79  ros2
+   80  source bin/humble
+   81  ros2
+   82  source humble
+   83  ros2
+   84  exit
+   85  ros2
+   86  humble
+   87  ros2
+   88  source humble
+   89  ros2
+   90  exit
+   91  . humble
+   92  ros2
+   93  exit
+   94  . humble
+   95  ros2
+   96  ros2 topic list
+   97  rviz
+   98  ros2
+   99  ros2 rviz
+  100  ros2 topic list
+  101  rviz2
+  102  ros2
+  103  . humble
+  104  ros2
+  105  ros2 topic list
+  106  rqt
+  107  rostopic echo /tf
+  108  rostopic2 echo /tf
+  109  ros2 topic echo /tf
+  110  ros2 topic echo /odom
+  111  ros2 top
+  112  ros2 topic echo /odom | grep base_link
+  113  ros2 topic echo /odom | grep nano
+  114  ros2 topic list
+  115  rqt
+  116  rviz
+  117  ros2 rviz2
+  118  ros2 rviz
+  119  rviz2
+  120  ros2 topic list
+  121  ros2 echo /imu
+  122  ros2 topic echo /imu
+  123  ros2 topic echo /rgb
+  124  ros2 topic list
+  125  ros2 topic echo /clock
+  126  ls
+  127  ros2
+  128  . humle
+  129  .humble
+  130  . humble
+  131  ros2
+  132  ros2 topic list
+  133  vi jetbotcmd.txt
+  134  move jetbotcmd.txt  jetbotcmd
+  135  mv jetbotcmd.txt  jetbotcmd
+  136  chmod +|c jetbotcmd 
+  137  chmod +x jetbotcmd 
+  138  ./jetbotcmd 
+  139  ls
+  140  mkdir jetbot
+  141  move jetbotcmd  jetbot
+  142  mv jetbotcmd  jetbot
+  143  cd jetbot/
+  144  dir
+  145  cp jetbotcmd  jetbotcmd-fwd
+  146  cp jetbotcmd-fwd jetbotcmd-stop
+  147  vi jetbotcmd-stop 
+  148  ls -ali
+  149  ./jetbotcmd-stop 
+  150  vi jetbotcmd-stop 
+  151  ./jetbotcmd-stop 
+  152  . humble
+  153  ros2
+  154  ls
+  155  cd jetbot/
+  156  ls
+  157  cp jetbotcmd-fwd jetbotcmd-bck
+  158  move jetbotcmd-fwd fwd-jebotcmd
+  159  mv jetbotcmd-fwd fwd-jebotcmd
+  160  mv jetbotcmd-bck bck-jetbotcmd
+  161  mv fwd-jebotcmd fwd-jetbotcmd 
+  162  mv jetbotcmd-stop  stop-jetbotcmd
+  163  vi bck-jetbotcmd 
+  164  b
+  165  ls
+  166  ./bck-jetbotcmd 
+  167  ./stop-jetbotcmd 
+  168  cp fwd-jetbotcmd circ-jetbotcmd
+  169  vi circ-jetbotcmd 
+  170  ./circ-jetbotcmd 
+  171  ./stop-jetbotcmd 
+  172  ./bck-jetbotcmd 
+  173  ./stop-jetbotcmd 
+  174  vi circ-jetbotcmd 
+  175  ./circ-jetbotcmd 
+  176  ./stop-jetbotcmd 
+  177  ./circ-jetbotcmd 
+  178  . humble
+  179  rviz2
+  180  exit
+  181  ls
+  182  cd jetbot/
+  183  ls
+  184  ./fwd-jetbotcmd 
+  185  ls
+  186  cd ..
+  187  ls
+  188  cd jetbot
+  189  history | grep source
+  190  source /opt/ros/humble/setup.bash
+  191  ./fwd-jetbotcmd 
+  192  more fwd-jetbotcmd 
+  193  more bck-jetbotcmd 
+  194  ls
+  195  more circ
+  196  more circ-jetbotcmd 
+  197  history | grep launch
+  198  history > hist.log
